@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">JastJava</string>
+    <string name="QUANTITY">КОЛЛИЧЕСТВО</string>
+    <string name="ORDER">ЗАКАЗ</string>
+    <string name="PRICE">ЦЕНА</string>
+    <string name="PLUS_CLIC">+</string>
+    <string name="MINUS_CLIC">-</string>
+    <string name="summ">120 руб.</string>
+    <string name="quantityNum">1</string>
 </resources>

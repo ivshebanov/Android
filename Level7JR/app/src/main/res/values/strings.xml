@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Level7JR</string>
+    <string name="health_check">Проверка здоровья</string>
+    <string name="book_check">У вас есть электронная медицинская книга?</string>
+    <string name="book_yes">Есть</string>
+    <string name="book_sometime">Нет, но зарегистрирую</string>
+    <string name="book_no">Нет</string>
+    <string name="book_check_el">Проверить наличие электронных книг</string>
+</resources>
