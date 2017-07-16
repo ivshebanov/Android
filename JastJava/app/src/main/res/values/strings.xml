@@ -1,13 +1,10 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">JastJava</string>
     <string name="QUANTITY">КОЛЛИЧЕСТВО</string>
     <string name="TOPPINGS">НАЧИНКА</string>
     <string name="ORDER">ЗАКАЗ</string>
     <string name="PRICE">ЦЕНА</string>
-    <string name="PLUS_CLIC">+</string>
-    <string name="MINUS_CLIC">-</string>
     <string name="SUMM">Цена 1 кофе 120 руб.</string>
-    <string name="quantityNum">1</string>
     <string name="WHIPPED_CREAM">Взбитые сливки</string>
     <string name="CHOCOLATE">Шоколадный топинг</string>
 </resources>

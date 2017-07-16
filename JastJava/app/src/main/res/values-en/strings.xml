@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JastJava</string>
+    <string name="WHIPPED_CREAM">Whipped cream</string>
+    <string name="TOPPINGS">Topping</string>
+    <string name="SUMM">Summ</string>
+    <string name="QUANTITY">Quantity</string>
+    <string name="PRICE">Price</string>
+    <string name="ORDER">Order</string>
+    <string name="CHOCOLATE">Chocolate</string>
+</resources>
