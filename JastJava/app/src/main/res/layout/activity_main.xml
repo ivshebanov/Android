@@ -8,10 +8,40 @@
     android:padding="16dp"
     tools:context="com.example.android.jastjava.MainActivity">
 
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/toppings_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/TOPPINGS" />
+
+    <CheckBox
+        android:id="@+id/WHIPPED_CREAM_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClickedWhippedCreamId"
+        android:text="@string/WHIPPED_CREAM"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/Chocolate_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClickedChocolateId"
+        android:text="@string/CHOCOLATE"
+        android:textSize="16sp" />
+
     <TextView
         android:id="@+id/qua_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="@string/QUANTITY" />
 
     <LinearLayout
@@ -57,7 +87,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/summ"
+        android:text="@string/SUMM"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
 
