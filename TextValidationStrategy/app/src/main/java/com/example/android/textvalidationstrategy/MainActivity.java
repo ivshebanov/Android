@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private boolean stringLowerCase;
     private boolean stringUpperCase;
     private boolean number;
-    private EditText editText = (EditText) findViewById(R.id.editText1);
-    private TextView priceTextView = (TextView) findViewById(R.id.executionResultView);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
         } else if (stringLowerCase) {
             context.setICheckString(new CheckStringLowerCase());
         }
+
+        EditText editText = (EditText) findViewById(R.id.editText1);
+        TextView priceTextView = (TextView) findViewById(R.id.executionResultView);
 
         String result = context.ExecuteOperation(editText.getText().toString());
         priceTextView.setText(result);
