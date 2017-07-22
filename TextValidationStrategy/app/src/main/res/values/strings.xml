@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TextValidationStrategy</string>
+    <string name="whatIsEntered">Что введено?</string>
+    <string name="number">Число</string>
+    <string name="stringLowerCase">Строка в нижнем регистре</string>
+    <string name="stringUpperCase">Строка в верхнем регистре</string>
+    <string name="executionResult">Результат выполнения программы</string>
+    <string name="enterText">Введите текст</string>
+    <string name="check">Проверить</string>
+</resources>

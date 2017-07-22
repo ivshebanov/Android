@@ -89,13 +89,13 @@ public class MainActivity extends AppCompatActivity {
         quantityTextView.setText("" + number);
     }
 
-//    private void displayPrice(String name) {
-//        TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
-//        priceTextView.setText("Добро пожаловать " + name +
-//                "\nКолличество кофе: " + numberOfCoffees +
-//                "\nВзбитые сливки: " + whippedCream +
-//                "\nШоколадный топинг: " + chocolate +
-//                "\nСтоимость заказа: " + NumberFormat.getCurrencyInstance().format(itoPrice) +
-//                "\nСпасибо за покупаку!");
-//    }
+    private void displayPrice(String name) {
+        TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
+        priceTextView.setText("Добро пожаловать " + name +
+                "\nКолличество кофе: " + numberOfCoffees +
+                "\nВзбитые сливки: " + whippedCream +
+                "\nШоколадный топинг: " + chocolate +
+                "\nСтоимость заказа: " + NumberFormat.getCurrencyInstance().format(itoPrice) +
+                "\nСпасибо за покупаку!");
+    }
 }
