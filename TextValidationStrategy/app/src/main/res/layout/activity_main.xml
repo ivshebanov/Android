@@ -19,11 +19,11 @@
 
     <CheckBox
         android:id="@+id/namber"
-        android:onClick="onCheckboxNamber"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
+        android:onClick="onCheckboxNamber"
         android:text="@string/number"
         android:textSize="16sp" />
 
@@ -39,11 +39,11 @@
 
     <CheckBox
         android:id="@+id/stringUpperCase"
-        android:onClick="onCheckboxStringUpperCase"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
+        android:onClick="onCheckboxStringUpperCase"
         android:text="@string/stringUpperCase"
         android:textSize="16sp" />
 
