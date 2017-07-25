@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DrivingСarState</string>
+    <string name="turn_key">Повернуть ключ</string>
+    <string name="full_tank">Полный бак</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+    <string name="get_state">Состояние</string>
+    <string name="get_gasoline">Бензин</string>
 </resources>
