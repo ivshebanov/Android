@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PlayerState</string>
+    <string name="play">Играть/Пауза</string>
+    <string name="stop">Старт/Стоп</string>
+    <string name="next">Следующая</string>
+    <string name="previous">Предыдущая</string>
+    <string name="locked_state_play">Включился</string>
+
+</resources>
